@@ -4,7 +4,7 @@ crs = "EPSG:2154"
 
 # Path to the file where the imported edges are stored
 # (possible extensions: parquet, geojson, fgb, shp).
-raw_edges_file = "./output/edges.gpkg"
+raw_edges_file = "./output/edges.parquet"
 # Path to the file where the imported edges are stored after the cleaning process
 # (possible extensions: parquet, geojson, fgb, shp).
 clean_edges_file = "./output/edges_clean.parquet"
